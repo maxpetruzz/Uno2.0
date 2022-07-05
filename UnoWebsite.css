@@ -1,0 +1,206 @@
+header {
+  position:relative;
+  margin-top: 2vw;
+  width: auto;
+  display: flex;
+  align-items: right;
+  align-content: right;
+}
+
+.icon {
+  width:3vw;
+  height: auto;
+  margin-left: 8vw;
+}
+
+.homeButton,.gameButton{
+  display:inline;
+  float:right;
+}
+
+.gameButton:hover {
+  color: rgb(151, 151, 151);
+}
+
+.homeButton {
+  margin-left: 60vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: crimson;
+  text-decoration: none;
+}
+
+
+.gameButton {
+  margin-left: 4vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  margin:0;
+  font-family: Montserrat;
+  color: aliceblue;
+  background: black;
+}
+
+.topOfPage{
+  margin-top: 10vw;
+}
+
+.col-12{
+  width:100%;
+}
+
+.col-8{
+  width: 66.6%;
+}
+
+.col-3{
+  width:25%;
+}
+
+.col-4{
+  width: 33%;
+}
+
+.welcome {
+  font-family: Montserrat;
+  text-align: center;
+  margin-left: -36%;
+  font-weight: 350;
+  background-clip: text;
+  font-size: 2.3vw;
+  color: white;
+}
+
+/* .gradientText {
+  margin-top:-3%;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(45deg, #ff0000, #0000ff);
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat;
+  font-weight: 750;
+  text-align: center;
+  padding-left: 0px;
+  background-clip: text;
+  font-size: 6.5vw;
+  z-index: 0;
+} */
+
+.gradientText {
+  margin-top:-3%;
+  font-family: Montserrat;
+  font-weight: 750;
+  text-align: center;
+  padding-left: 0px;
+  font-size: 6.5vw;
+  z-index: 0;
+  background: linear-gradient(45deg, rgb(255, 0, 0) 15%, rgb(0, 119, 255) 24%, rgb(0, 167, 14) 36%,#FF0 48%, rgb(0, 167, 14) 60%, rgb(0, 119, 255) 72%, rgb(255, 0, 0) 85%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 10s;
+  animation-direction: backwards;
+  animation-name: shine2;
+  animation-iteration-count:infinite;
+}
+
+@keyframes shine2 {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+  @keyframes shine {
+    0% {
+      background-position: 0% center;
+  } 100% {
+    background-position: 205% center;
+  }
+  }
+
+
+
+.unoLogoCard {
+  animation: float 10s infinite;
+  opacity: 75%;
+  margin-top:-17vw;
+  position:relative;
+   display: block;
+  width: 50%;
+  z-index: -10;
+}
+
+@keyframes float {
+	0% {
+		-webkit-transform: translatey(10px);
+		transform: translatey(10px)
+	}
+	50% {
+		-webkit-transform: translatey(-10px);
+		transform: translatey(-10px)
+	}
+	100% {
+		-webkit-transform: translatey(10px);
+		transform: translatey(10px)
+	}
+}
+
+.info{
+  margin-top: 20%;
+  width: auto;
+  height:fit-content;
+  background-color: #121212;
+  /* border-radius: 1em; */
+  padding:5%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.infoParagraph {
+  margin-left: 25%;
+  margin-right:25%;
+}
+
+.buttons{
+  display:inline;
+}
+
+
+.playButton:hover, .infoButton:hover {
+background-color: rgb(255, 0, 0);
+}
+
+.playButton, .infoButton{
+  padding: 1vw 5vw 1vw 5vw;
+  background-color:rgba(255, 255, 255, 0);
+  font-weight:600;
+  color: rgb(255, 255, 255);
+  border: white solid 2px;
+  text-decoration: none;
+}
+
+.playButton {
+  border-radius: 1em;
+  font-size: 1vw;
+  margin-right: 1vw;
+}
+
+.infoButton {
+  border-radius: 1em;
+  font-size: 1vw;
+  margin-left: 1vw;
+}
+
+
+
+footer {
+  margin-top: 4vw;
+  font-size: 1vw;
+}
