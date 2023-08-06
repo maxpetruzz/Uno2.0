@@ -144,6 +144,7 @@ body {
 }
 
 .computerHand{
+  min-height: 160px;
   display: flex;
   justify-content: center;
 }
@@ -168,6 +169,10 @@ body {
   margin-left: 1vw;
 }
 
+.drawPile img:hover{
+  cursor:pointer !important;
+}
+
 .playPile{
   width: 29%;
   height: auto;
@@ -175,6 +180,7 @@ body {
 }
 
 .playerHand{
+  min-height: 160px;
   display: block;
   text-align: center;
   justify-content: center;
@@ -189,6 +195,7 @@ body {
 }
 
 .playerCard:hover{
+  cursor:pointer !important;
   transform:translateY(-20px) rotate(-3deg);
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
