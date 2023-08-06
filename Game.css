@@ -145,7 +145,6 @@ body {
 
 .computerHand{
   min-height: 160px;
-  display: block;
   text-align: center;
   justify-content: center;
 }
