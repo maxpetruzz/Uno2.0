@@ -144,8 +144,9 @@ body {
 }
 
 .computerHand{
-  min-height: 160px !important;
-  display: flex;
+  min-height: 160px;
+  display: block;
+  text-align: center;
   justify-content: center;
 }
 
@@ -180,7 +181,7 @@ body {
 }
 
 .playerHand{
-  min-height: 160px !important;
+  min-height: 160px;
   display: block;
   text-align: center;
   justify-content: center;
@@ -216,4 +217,23 @@ body {
     to {
       text-shadow: 0 0 10px #e60000;
     }
+}
+
+@media screen and (max-width: 480px){
+  .playerCard{
+    width: 20% !important;
+  }
+  .gameBoard{
+    margin: 0 !important;
+    padding: 0% 5% 0% 5%;
+  }
+  .computerCard{
+    width: 20% !important;
+  }
+  .drawPile{
+    width: 50% !important;
+  }
+  .playPile{
+    width: 50% !important;
+  }
 }
