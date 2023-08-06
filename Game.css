@@ -40,7 +40,7 @@ header {
 
 body {
     margin:auto;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     background: #1b1b1b;
   }
@@ -144,7 +144,7 @@ body {
 }
 
 .computerHand{
-  min-height: 160px;
+  display: flex;
   text-align: center;
   justify-content: center;
 }

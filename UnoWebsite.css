@@ -42,7 +42,7 @@ header {
 body {
   text-align: center;
   margin:0;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   color: aliceblue;
   background: black;
 }
