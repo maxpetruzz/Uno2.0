@@ -144,7 +144,7 @@ body {
 }
 
 .computerHand{
-  min-height: 160px;
+  min-height: 160px !important;
   display: flex;
   justify-content: center;
 }
@@ -180,7 +180,7 @@ body {
 }
 
 .playerHand{
-  min-height: 160px;
+  min-height: 160px !important;
   display: block;
   text-align: center;
   justify-content: center;
